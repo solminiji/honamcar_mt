@@ -1,0 +1,39 @@
+*[class^="colum"] {
+    display: flex;
+}
+
+.area_plan .plan_cont02 {text-align: center;}
+.sect {margin-top: 4.3rem;}
+
+h4.sub_tit {position: relative;margin-bottom: 40px;padding-left: 30px;font-weight: 400;font-size: 1.5rem;color: #222;text-align: left;letter-spacing: -0.05rem;}
+h4.sub_tit::before {top: 3px;left: 0;background: #153054;}
+h4.sub_tit::before, h4.sub_tit::after {content: "";display: inline-block;position: absolute;width: 14px;height: 17px;}
+h4.sub_tit::after {position: absolute;top: 13px;left: 0;background: #d22649;}
+h4.sub_tit::before, h4.sub_tit::after {content: "";display: inline-block;position: absolute;width: 14px;height: 17px;}
+.colum2 {justify-content: space-between;}
+.colum2 > li {width: -webkit-calc((100% / 3) - 10px);width: calc((100% / 2) - 7px); list-style: none;}
+.plan_cont02 .list_background > li > span {color: #091E3E; border-color: #091E3E;}
+.list_background > li > span {display: block;margin: 0 0 22px;padding: 19px 0;border: 3px dotted;font-weight: 600;font-size: 19px;text-align: center;border-radius: 10px;}
+.list_circle li {list-style: none; text-align: center; color:#091E3E; font-weight: 600;}
+/* .list_circle li::before {content: "";position: absolute;top: 11px;left: 0;width: 4px;height: 4px;background: #bdbdbd;border-radius: 10px;} */
+
+
+
+@media (max-width: 767px) {
+    h4.sub_tit {
+        margin-bottom: 17px;
+        padding-left: 17px;
+        font-size: 19px;
+    }
+}
+@media (max-width: 767px) {
+    .colum5, .colum3 {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.slideUp.is-animate {opacity: 1 !important; transform: translateY(0) !important;}
+.other .area_plan .plan_cont01 .list_background > li > span {color: #152f53; border-color: #152f53;}
+.other .area_plan .plan_cont01 h4 {line-height: 1.5; margin-bottom: 28px; font-weight: 600; font-size: 22px;}
+.other .area_plan .list_background > li > span {display: block; margin: 0 0 22px; padding: 19px 0; border: 3px dotted; font-weight: 600; font-size: 19px; text-align: center; border-radius: 10px;}
